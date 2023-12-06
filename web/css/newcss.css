@@ -1,0 +1,79 @@
+body {
+    background-image: url('portada.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.8); /* Cambia el último valor (0.8) para ajustar la transparencia */
+}
+
+.navbar {
+    background: linear-gradient(45deg, #2C3E50, #34495E);
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+    height: 100px;
+    z-index: 1; /* Controla el apilamiento, 1 para estar encima de otros elementos */
+}
+
+.navbar-brand {
+    color: #FFF; /* Cambia el color del texto del logotipo a blanco */
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra a una fuente personalizada (reemplaza 'Arial' con tu fuente deseada) */
+    font-size: 24px; /* Aumenta el tamaño de fuente del logotipo */
+}
+.navbar a {
+    color: #FFF; 
+    text-decoration: none; 
+    margin: 0 20px; 
+    font-family: 'Helvetica', sans-serif; 
+    font-size: 16px; 
+}
+.navbar .form-control {
+    width: 200px; 
+    border: none; 
+    border-radius: 30px;
+    background: linear-gradient(45deg, #FF6B6B, #6B6BFF); 
+    color: #FFF;
+    font-family: 'Arial', sans-serif; 
+}
+.navbar .form-control:hover {
+    background: linear-gradient(45deg, #6B6BFF, #FF6B6B); 
+    color: #FFF; 
+}
+.navbar-toggler-icon {
+    background: linear-gradient(45deg, #FFF, #6B6BFF);
+}
+.navbar-collapse {
+    background: linear-gradient(45deg, #FF6B6B, #6B6BFF); 
+}
+.navbar .dropdown-menu .dropdown-item {
+    color: #FFF; 
+    font-family: 'Arial', sans-serif;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+    background: linear-gradient(45deg, #6B6BFF, #FF6B6B);
+    color: #FFF;
+}
+/* Estilo para la barra de navegación con un aspecto más masculino */
+.navbar {
+    background: linear-gradient(45deg, #2C3E50, #34495E); /* Cambia el fondo a un degradado de tonos masculinos */
+    border: none; /* Quita los bordes de la barra de navegación */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Agrega una sombra sutil a la barra de navegación */
+    margin-bottom: 100px; /* Agrega un margen inferior para hacer la barra un poco más gruesa hacia abajo */
+}
+.navbar-brand a {
+    color: #3498db; /* Cambia el color de la palabra a un tono de azul más claro */
+    font-family: 'Helvetica', sans-serif; /* Cambia el tipo de letra de la palabra (puedes reemplazar 'Helvetica' con tu fuente deseada) */
+    font-size: 35px; /* Aumenta el tamaño de fuente de la palabra */
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Esto coloca la imagen de fondo detrás de otros elementos */
+    width: 100%;
+    height: 100%;
+     /* Puedes ajustar la opacidad para que la imagen sea más transparente si lo deseas */
+}
+
+
